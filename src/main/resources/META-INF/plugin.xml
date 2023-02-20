@@ -9,6 +9,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.brianmcnamara.plugindemo.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.brianmcnamara.plugindemo.services.MyProjectService"/>
+        <dom.fileMetaData rootTagName="test" implementation="com.github.brianmcnamara.plugindemo.DomDescriptor"/>
     </extensions>
 
     <applicationListeners>
